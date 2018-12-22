@@ -1,0 +1,81 @@
+/* Created by SoloLearn */
+
+/*
+    Represent your country's flag in code!
+*/
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background: linear-gradient(rgb(255, 0, 0),rgb(255, 255, 255), rgb(0, 153, 51));
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#wood {
+    position: relative;
+    width: 10px;
+    height: 300px;
+    border-radius: 3px;
+    background-image: url("http://d1xguy9zq468ef.cloudfront.net/sites/default/files/450x450%20classwood%20brown.jpg");
+}
+
+#flag {
+    width: 220px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px #aaa;
+}
+
+#color1 {
+    flex: 1;
+    background-color: rgb(255, 0, 0);
+}
+
+#color2 {
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+}
+#color3 {
+    flex: 1;
+    background-color: rgb(0, 153, 51);
+}
+#emblem {
+    position: absolute;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/63/Coat_of_Arms_of_Hungary.png");
+    background-size: cover;
+    width:50px;
+    height: 80px;
+    
+    transition: display 0.5s;
+}
+
+#toggleButton {
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(0,153,51);
+    border-radius: 12px;
+    box-shadow: 1px 1px #ddd;
+    color: white;
+}
+
+#toggleButton:focus {
+    outline: none;
+}
+

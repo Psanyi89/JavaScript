@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Basics</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">  
+</head>
+<body onload="startUp()" >
+    <button class="btn btn-primary" onclick="printCurrent()">Print this Page</button>
+  <div class="container">
+    <form id="triangleSides">
+    <h1>Area of a Triangle <small>test</small> </h1>
+    <div class="jumbotron" id="triangleSides">
+     <div class="form-group">
+           <label for="sideA">A :
+               <input id="sideA" required class="form-control"  type="text" placeholder="Length of side A">
+        </label>
+        </div>
+       <div class="form-group">
+        <label for="sideB">B : 
+        <input id="sideB" class="form-control" required type="text" placeholder="Length of side B">
+    </label>
+    </div>
+    <div class="form-group">
+        <label for="sideC">C : 
+        <input id="sideC" class="form-control" required type="text" placeholder="Length of side C">
+    </label>
+    </div>
+<button  type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+<div id="result"></div>
+</div>
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+   <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <script src="main.js"></script>
+</body>
+</html>
